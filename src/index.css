@@ -22,7 +22,7 @@ button {
 }
 
 .square-black {
-  background: #000;
+  background: #123;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -37,7 +37,7 @@ button {
 }
 
 .square-white {
-  background: #fff;
+  background: #de0;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
