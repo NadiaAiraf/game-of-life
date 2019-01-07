@@ -77,6 +77,16 @@ class Board extends React.Component {
   pauseGame () {
     clearInterval(this.interval);
   }
+  
+  randomise () {
+    const newArray = Array(100).fill(0)
+    for (var i = 0; i < newArray.length; i++) {
+      newArray[i] = (Math.random() > 0.5) ? 1 : 0;
+    }
+    this.setState({
+      blackSquares: newArray
+    })
+  }
 
   renderSquare(i) {
     return (
@@ -107,6 +117,7 @@ class Board extends React.Component {
         {this.state.number}
         <button onClick={() => this.runGame()}>Start Game</button>
         <button onClick={() => this.pauseGame()}>Pause</button>
+        <button onClick={() => this.randomise()}>randomise</button>
       </div>
     )
   }
