@@ -1,44 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Game of Life (Aidan's)
 
-## Available Scripts
+This project is a small spiked project containing my first foray into using React. It's basically a continuation of the React tic tac toe tutorial that can be found [here](https://reactjs.org/tutorial/tutorial.html) using the same CSS and manipulating it to create something similar to the game of life.
 
-In the project directory, you can run:
+The keen eyed observer might notice it's not exactly the game of life. I have a proper working code for the game of life on codewars but for the purposes of learning React I simplified things slightly as you might be able to tell.
 
-### `npm start`
+### How to Run
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. clone this repo
+2. `npm start`
+3. visit localhost:3000
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+It should be that simple, if you have any issues a likely problem is due to not using the right version of npm.
 
-### `npm test`
+### Pretty colours
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![game of life screenshot](./game_of_life_image.png)
