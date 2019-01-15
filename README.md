@@ -14,4 +14,4 @@ It should be that simple, if you have any issues a likely problem is due to not 
 
 ### Pretty colours
 
-![game of life screenshot](./game_of_life_image.png)
+![game of life screenshot](https://github.com/NadiaAiraf/game-of-life/blob/master/src/game_of_life_image.png)
